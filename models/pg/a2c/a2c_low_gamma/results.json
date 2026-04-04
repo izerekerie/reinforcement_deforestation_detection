@@ -1,0 +1,15 @@
+{
+  "mean_reward": 150.625,
+  "std_reward": 107.08172988423375,
+  "mean_health": 0.7956666666666667,
+  "mean_steps": 178.45,
+  "win_rate": 0.85,
+  "params": {
+    "learning_rate": "0.0007",
+    "n_steps": "16",
+    "gamma": "0.95",
+    "gae_lambda": "0.9",
+    "ent_coef": "0.01",
+    "vf_coef": "0.5"
+  }
+}

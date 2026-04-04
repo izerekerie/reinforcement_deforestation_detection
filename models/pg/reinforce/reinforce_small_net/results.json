@@ -1,0 +1,12 @@
+{
+  "mean_reward": -180.0,
+  "std_reward": 71.4142842854285,
+  "mean_health": 0.7533333333333333,
+  "win_rate": 0.85,
+  "config": {
+    "name": "reinforce_small_net",
+    "lr": 0.001,
+    "gamma": 0.99,
+    "hidden": 64
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "reinforce_baseline": {
+    "mean_reward": -95.3,
+    "std_reward": 92.35480496433306,
+    "mean_health": 0.7405555555555556,
+    "mean_steps": 200.0,
+    "win_rate": 0.7,
+    "params": {
+      "lr": 0.001,
+      "gamma": 0.99
+    }
+  },
+  "reinforce_low_lr": {
+    "mean_reward": -112.85,
+    "std_reward": 96.3432794750106,
+    "mean_health": 0.7295555555555556,
+    "mean_steps": 200.0,
+    "win_rate": 0.65,
+    "params": {
+      "lr": 0.0001,
+      "gamma": 0.99
+    }
+  },
+  "reinforce_high_lr": {
+    "mean_reward": 57.3,
+    "std_reward": 57.42046673443189,
+    "mean_health": 0.7676666666666667,
+    "mean_steps": 200.0,
+    "win_rate": 0.9,
+    "params": {
+      "lr": 0.005,
+      "gamma": 0.99
+    }
+  },
+  "reinforce_low_gamma": {
+    "mean_reward": -50.15,
+    "std_reward": 80.96806469219825,
+    "mean_health": 0.766,
+    "mean_steps": 200.0,
+    "win_rate": 0.85,
+    "params": {
+      "lr": 0.001,
+      "gamma": 0.95
+    }
+  },
+  "reinforce_high_gamma": {
+    "mean_reward": -48.8,
+    "std_reward": 45.11939715909333,
+    "mean_health": 0.7733333333333333,
+    "mean_steps": 200.0,
+    "win_rate": 0.95,
+    "params": {
+      "lr": 0.001,
+      "gamma": 0.999
+    }
+  },
+  "reinforce_slow": {
+    "mean_reward": -56.3,
+    "std_reward": 62.083089484979716,
+    "mean_health": 0.7623333333333333,
+    "mean_steps": 200.0,
+    "win_rate": 0.9,
+    "params": {
+      "lr": 0.0005,
+      "gamma": 0.995
+    }
+  },
+  "reinforce_fast": {
+    "mean_reward": 110.6,
+    "std_reward": 102.39453110396082,
+    "mean_health": 0.7942222222222222,
+    "mean_steps": 200.0,
+    "win_rate": 0.9,
+    "params": {
+      "lr": 0.003,
+      "gamma": 0.97
+    }
+  },
+  "reinforce_balanced": {
+    "mean_reward": -18.9,
+    "std_reward": 50.222405358564814,
+    "mean_health": 0.7808888888888889,
+    "mean_steps": 200.0,
+    "win_rate": 0.95,
+    "params": {
+      "lr": 0.0007,
+      "gamma": 0.99
+    }
+  },
+  "reinforce_cautious": {
+    "mean_reward": -82.15,
+    "std_reward": 79.07355752715316,
+    "mean_health": 0.7490000000000001,
+    "mean_steps": 200.0,
+    "win_rate": 0.8,
+    "params": {
+      "lr": 0.0002,
+      "gamma": 0.998
+    }
+  },
+  "reinforce_bold": {
+    "mean_reward": -95.2,
+    "std_reward": 88.25168553631143,
+    "mean_health": 0.7317777777777779,
+    "mean_steps": 200.0,
+    "win_rate": 0.7,
+    "params": {
+      "lr": 0.002,
+      "gamma": 0.98
+    }
+  }
+}

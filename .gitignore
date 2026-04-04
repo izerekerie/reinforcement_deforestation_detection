@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+.env/
+env/
+
+# IDE
+.idea/
+*.swp
+*.swo
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ============================================
+# Model files — ignore everything except best_model.*
+# ============================================
+
+# Ignore all model binaries
+models/**/*.zip
+models/**/*.pt
+models/**/*.npz
+models/**/*.npy
+
+# Helper/generator scripts (keep local only)
+generate_report.py
+build_notebook.py
+run_sweeps.py
+
+# Reports and PDFs (submit separately, not in repo)
+REPORT.md
+report.docx
+report_final.docx
+sumamtiveD_E.pdf
+*.pdf
+
+# Sweep data
+models/sweep/
+
+# Word temp files
+~$*
+
+# Keep best models and retrained models
+!models/**/best_model.zip
+!models/**/best_model.pt
+!models/best_model.zip
+!models/retrained/a2c_retrained.zip
+!models/retrained/dqn_retrained.zip
+!models/retrained/ppo_retrained.zip
+!models/retrained/reinforce_retrained.pt
+
+# Keep results files
+!models/**/results.json
+!models/**/all_results.json
+~$*
+run_a2c_sweep.py
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore

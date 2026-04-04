@@ -1,0 +1,11 @@
+{
+  "mean_reward": -50.15,
+  "std_reward": 80.96806469219825,
+  "mean_health": 0.766,
+  "mean_steps": 200.0,
+  "win_rate": 0.85,
+  "params": {
+    "lr": 0.001,
+    "gamma": 0.95
+  }
+}

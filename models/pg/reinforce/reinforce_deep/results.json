@@ -1,0 +1,12 @@
+{
+  "mean_reward": -190.0,
+  "std_reward": 80.0,
+  "mean_health": 0.7667777777777778,
+  "win_rate": 0.8,
+  "config": {
+    "name": "reinforce_deep",
+    "lr": 0.001,
+    "gamma": 0.99,
+    "hidden": 192
+  }
+}

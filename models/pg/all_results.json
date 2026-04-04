@@ -1,0 +1,448 @@
+{
+  "ppo": {
+    "ppo_baseline": {
+      "mean_reward": -169.5,
+      "std_reward": 85.03028872113748,
+      "mean_health": 0.8388888888888889,
+      "win_rate": 1.0,
+      "config": {
+        "name": "ppo_baseline",
+        "learning_rate": 0.0003,
+        "n_steps": 512,
+        "batch_size": 64,
+        "n_epochs": 10,
+        "gamma": 0.99,
+        "gae_lambda": 0.95,
+        "clip_range": 0.2,
+        "ent_coef": 0.01
+      }
+    },
+    "ppo_low_lr": {
+      "mean_reward": -160.0,
+      "std_reward": 43.58898943540674,
+      "mean_health": 0.7762222222222221,
+      "win_rate": 0.95,
+      "config": {
+        "name": "ppo_low_lr",
+        "learning_rate": 0.0001,
+        "n_steps": 512,
+        "batch_size": 64,
+        "n_epochs": 10,
+        "gamma": 0.99,
+        "gae_lambda": 0.95,
+        "clip_range": 0.2,
+        "ent_coef": 0.01
+      }
+    },
+    "ppo_high_lr": {
+      "mean_reward": -327.9,
+      "std_reward": 292.2934997566658,
+      "mean_health": 0.7668888888888887,
+      "win_rate": 0.85,
+      "config": {
+        "name": "ppo_high_lr",
+        "learning_rate": 0.001,
+        "n_steps": 512,
+        "batch_size": 64,
+        "n_epochs": 10,
+        "gamma": 0.99,
+        "gae_lambda": 0.95,
+        "clip_range": 0.2,
+        "ent_coef": 0.01
+      }
+    },
+    "ppo_wide_clip": {
+      "mean_reward": -201.95,
+      "std_reward": 85.34780313517156,
+      "mean_health": 0.7373333333333333,
+      "win_rate": 0.75,
+      "config": {
+        "name": "ppo_wide_clip",
+        "learning_rate": 0.0003,
+        "n_steps": 512,
+        "batch_size": 64,
+        "n_epochs": 10,
+        "gamma": 0.99,
+        "gae_lambda": 0.95,
+        "clip_range": 0.3,
+        "ent_coef": 0.01
+      }
+    },
+    "ppo_narrow_clip": {
+      "mean_reward": -203.7,
+      "std_reward": 82.43306375478228,
+      "mean_health": 0.7957777777777778,
+      "win_rate": 0.8,
+      "config": {
+        "name": "ppo_narrow_clip",
+        "learning_rate": 0.0003,
+        "n_steps": 512,
+        "batch_size": 64,
+        "n_epochs": 10,
+        "gamma": 0.99,
+        "gae_lambda": 0.95,
+        "clip_range": 0.1,
+        "ent_coef": 0.01
+      }
+    },
+    "ppo_high_entropy": {
+      "mean_reward": -248.2,
+      "std_reward": 158.6652450916709,
+      "mean_health": 0.8078888888888889,
+      "win_rate": 0.95,
+      "config": {
+        "name": "ppo_high_entropy",
+        "learning_rate": 0.0003,
+        "n_steps": 512,
+        "batch_size": 64,
+        "n_epochs": 10,
+        "gamma": 0.99,
+        "gae_lambda": 0.95,
+        "clip_range": 0.2,
+        "ent_coef": 0.05
+      }
+    },
+    "ppo_long_horizon": {
+      "mean_reward": -190.0,
+      "std_reward": 80.0,
+      "mean_health": 0.7478888888888888,
+      "win_rate": 0.8,
+      "config": {
+        "name": "ppo_long_horizon",
+        "learning_rate": 0.0003,
+        "n_steps": 1024,
+        "batch_size": 128,
+        "n_epochs": 10,
+        "gamma": 0.995,
+        "gae_lambda": 0.98,
+        "clip_range": 0.2,
+        "ent_coef": 0.01
+      }
+    },
+    "ppo_short_horizon": {
+      "mean_reward": -218.6,
+      "std_reward": 76.82343392481229,
+      "mean_health": 0.7741111111111112,
+      "win_rate": 0.85,
+      "config": {
+        "name": "ppo_short_horizon",
+        "learning_rate": 0.0003,
+        "n_steps": 256,
+        "batch_size": 32,
+        "n_epochs": 5,
+        "gamma": 0.97,
+        "gae_lambda": 0.9,
+        "clip_range": 0.2,
+        "ent_coef": 0.01
+      }
+    },
+    "ppo_many_epochs": {
+      "mean_reward": -170.0,
+      "std_reward": 60.0,
+      "mean_health": 0.7545555555555555,
+      "win_rate": 0.9,
+      "config": {
+        "name": "ppo_many_epochs",
+        "learning_rate": 0.0001,
+        "n_steps": 512,
+        "batch_size": 64,
+        "n_epochs": 20,
+        "gamma": 0.99,
+        "gae_lambda": 0.95,
+        "clip_range": 0.15,
+        "ent_coef": 0.01
+      }
+    },
+    "ppo_aggressive": {
+      "mean_reward": -681.05,
+      "std_reward": 978.0042165042029,
+      "mean_health": 0.813,
+      "win_rate": 0.95,
+      "config": {
+        "name": "ppo_aggressive",
+        "learning_rate": 0.0005,
+        "n_steps": 256,
+        "batch_size": 128,
+        "n_epochs": 15,
+        "gamma": 0.98,
+        "gae_lambda": 0.92,
+        "clip_range": 0.25,
+        "ent_coef": 0.02
+      }
+    }
+  },
+  "a2c": {
+    "a2c_baseline": {
+      "mean_reward": -133.35,
+      "std_reward": 39.648801999556056,
+      "mean_health": 0.9127777777777778,
+      "win_rate": 0.95,
+      "config": {
+        "name": "a2c_baseline",
+        "learning_rate": 0.0007,
+        "n_steps": 16,
+        "gamma": 0.99,
+        "gae_lambda": 0.95,
+        "ent_coef": 0.01,
+        "vf_coef": 0.5
+      }
+    },
+    "a2c_low_lr": {
+      "mean_reward": -180.0,
+      "std_reward": 71.4142842854285,
+      "mean_health": 0.7633333333333333,
+      "win_rate": 0.85,
+      "config": {
+        "name": "a2c_low_lr",
+        "learning_rate": 0.0001,
+        "n_steps": 16,
+        "gamma": 0.99,
+        "gae_lambda": 0.95,
+        "ent_coef": 0.01,
+        "vf_coef": 0.5
+      }
+    },
+    "a2c_high_lr": {
+      "mean_reward": -88.1,
+      "std_reward": 54.63140122676702,
+      "mean_health": 0.7756666666666666,
+      "win_rate": 0.95,
+      "config": {
+        "name": "a2c_high_lr",
+        "learning_rate": 0.003,
+        "n_steps": 16,
+        "gamma": 0.99,
+        "gae_lambda": 0.95,
+        "ent_coef": 0.01,
+        "vf_coef": 0.5
+      }
+    },
+    "a2c_long_steps": {
+      "mean_reward": -210.0,
+      "std_reward": 91.6515138991168,
+      "mean_health": 0.7503333333333334,
+      "win_rate": 0.7,
+      "config": {
+        "name": "a2c_long_steps",
+        "learning_rate": 0.0007,
+        "n_steps": 64,
+        "gamma": 0.99,
+        "gae_lambda": 0.95,
+        "ent_coef": 0.01,
+        "vf_coef": 0.5
+      }
+    },
+    "a2c_short_steps": {
+      "mean_reward": -121.85,
+      "std_reward": 44.83221497985573,
+      "mean_health": 0.9114444444444445,
+      "win_rate": 0.95,
+      "config": {
+        "name": "a2c_short_steps",
+        "learning_rate": 0.0007,
+        "n_steps": 5,
+        "gamma": 0.99,
+        "gae_lambda": 0.95,
+        "ent_coef": 0.01,
+        "vf_coef": 0.5
+      }
+    },
+    "a2c_high_entropy": {
+      "mean_reward": -124.2,
+      "std_reward": 25.06312031651287,
+      "mean_health": 0.9407777777777779,
+      "win_rate": 1.0,
+      "config": {
+        "name": "a2c_high_entropy",
+        "learning_rate": 0.0007,
+        "n_steps": 16,
+        "gamma": 0.99,
+        "gae_lambda": 0.95,
+        "ent_coef": 0.05,
+        "vf_coef": 0.5
+      }
+    },
+    "a2c_low_vf": {
+      "mean_reward": -141.6,
+      "std_reward": 31.18397024113511,
+      "mean_health": 0.8912222222222222,
+      "win_rate": 1.0,
+      "config": {
+        "name": "a2c_low_vf",
+        "learning_rate": 0.0007,
+        "n_steps": 16,
+        "gamma": 0.99,
+        "gae_lambda": 0.95,
+        "ent_coef": 0.01,
+        "vf_coef": 0.25
+      }
+    },
+    "a2c_high_vf": {
+      "mean_reward": -131.5,
+      "std_reward": 35.75681753176588,
+      "mean_health": 0.9228888888888888,
+      "win_rate": 1.0,
+      "config": {
+        "name": "a2c_high_vf",
+        "learning_rate": 0.0007,
+        "n_steps": 16,
+        "gamma": 0.99,
+        "gae_lambda": 0.95,
+        "ent_coef": 0.01,
+        "vf_coef": 0.8
+      }
+    },
+    "a2c_low_gamma": {
+      "mean_reward": -140.75,
+      "std_reward": 45.579463577361246,
+      "mean_health": 0.9402222222222221,
+      "win_rate": 1.0,
+      "config": {
+        "name": "a2c_low_gamma",
+        "learning_rate": 0.0007,
+        "n_steps": 16,
+        "gamma": 0.95,
+        "gae_lambda": 0.9,
+        "ent_coef": 0.01,
+        "vf_coef": 0.5
+      }
+    },
+    "a2c_tuned": {
+      "mean_reward": -218.45,
+      "std_reward": 93.5769603054085,
+      "mean_health": 0.7324444444444443,
+      "win_rate": 0.7,
+      "config": {
+        "name": "a2c_tuned",
+        "learning_rate": 0.0005,
+        "n_steps": 32,
+        "gamma": 0.99,
+        "gae_lambda": 0.98,
+        "ent_coef": 0.02,
+        "vf_coef": 0.4
+      }
+    }
+  },
+  "reinforce": {
+    "reinforce_baseline": {
+      "mean_reward": -190.0,
+      "std_reward": 80.0,
+      "mean_health": 0.7572222222222221,
+      "win_rate": 0.8,
+      "config": {
+        "name": "reinforce_baseline",
+        "lr": 0.001,
+        "gamma": 0.99,
+        "hidden": 128
+      }
+    },
+    "reinforce_low_lr": {
+      "mean_reward": -250.0,
+      "std_reward": 100.0,
+      "mean_health": 0.7171111111111113,
+      "win_rate": 0.5,
+      "config": {
+        "name": "reinforce_low_lr",
+        "lr": 0.0001,
+        "gamma": 0.99,
+        "hidden": 128
+      }
+    },
+    "reinforce_high_lr": {
+      "mean_reward": -114.0,
+      "std_reward": 79.89993742175271,
+      "mean_health": 0.7491111111111111,
+      "win_rate": 0.8,
+      "config": {
+        "name": "reinforce_high_lr",
+        "lr": 0.005,
+        "gamma": 0.99,
+        "hidden": 128
+      }
+    },
+    "reinforce_low_gamma": {
+      "mean_reward": -200.0,
+      "std_reward": 86.60254037844386,
+      "mean_health": 0.7477777777777778,
+      "win_rate": 0.75,
+      "config": {
+        "name": "reinforce_low_gamma",
+        "lr": 0.001,
+        "gamma": 0.95,
+        "hidden": 128
+      }
+    },
+    "reinforce_high_gamma": {
+      "mean_reward": -210.0,
+      "std_reward": 91.6515138991168,
+      "mean_health": 0.7381111111111112,
+      "win_rate": 0.7,
+      "config": {
+        "name": "reinforce_high_gamma",
+        "lr": 0.001,
+        "gamma": 0.999,
+        "hidden": 128
+      }
+    },
+    "reinforce_small_net": {
+      "mean_reward": -180.0,
+      "std_reward": 71.4142842854285,
+      "mean_health": 0.7533333333333333,
+      "win_rate": 0.85,
+      "config": {
+        "name": "reinforce_small_net",
+        "lr": 0.001,
+        "gamma": 0.99,
+        "hidden": 64
+      }
+    },
+    "reinforce_large_net": {
+      "mean_reward": -180.0,
+      "std_reward": 71.4142842854285,
+      "mean_health": 0.7572222222222222,
+      "win_rate": 0.85,
+      "config": {
+        "name": "reinforce_large_net",
+        "lr": 0.001,
+        "gamma": 0.99,
+        "hidden": 256
+      }
+    },
+    "reinforce_slow_learn": {
+      "mean_reward": -190.0,
+      "std_reward": 80.0,
+      "mean_health": 0.7434444444444445,
+      "win_rate": 0.8,
+      "config": {
+        "name": "reinforce_slow_learn",
+        "lr": 0.0005,
+        "gamma": 0.995,
+        "hidden": 128
+      }
+    },
+    "reinforce_fast_learn": {
+      "mean_reward": -220.0,
+      "std_reward": 95.39392014169457,
+      "mean_health": 0.746,
+      "win_rate": 0.65,
+      "config": {
+        "name": "reinforce_fast_learn",
+        "lr": 0.003,
+        "gamma": 0.97,
+        "hidden": 128
+      }
+    },
+    "reinforce_deep": {
+      "mean_reward": -190.0,
+      "std_reward": 80.0,
+      "mean_health": 0.7667777777777778,
+      "win_rate": 0.8,
+      "config": {
+        "name": "reinforce_deep",
+        "lr": 0.001,
+        "gamma": 0.99,
+        "hidden": 192
+      }
+    }
+  }
+}

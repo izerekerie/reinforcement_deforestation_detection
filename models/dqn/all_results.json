@@ -1,0 +1,172 @@
+{
+  "dqn_baseline": {
+    "mean_reward": 209.1,
+    "std_reward": 119.6122485366779,
+    "mean_health": 0.7675555555555557,
+    "mean_steps": 200.0,
+    "win_rate": 0.9,
+    "params": {
+      "learning_rate": "0.001",
+      "buffer_size": "50000",
+      "batch_size": "64",
+      "gamma": "0.99",
+      "exploration_fraction": "0.3",
+      "exploration_final_eps": "0.05",
+      "target_update_interval": "500",
+      "learning_starts": "1000"
+    }
+  },
+  "dqn_low_lr": {
+    "mean_reward": 112.65,
+    "std_reward": 142.33912849248443,
+    "mean_health": 0.7568888888888889,
+    "mean_steps": 200.0,
+    "win_rate": 0.8,
+    "params": {
+      "learning_rate": "0.0001",
+      "buffer_size": "50000",
+      "batch_size": "64",
+      "gamma": "0.99",
+      "exploration_fraction": "0.3",
+      "exploration_final_eps": "0.05",
+      "target_update_interval": "500",
+      "learning_starts": "1000"
+    }
+  },
+  "dqn_high_lr": {
+    "mean_reward": 137.05,
+    "std_reward": 283.1777666060667,
+    "mean_health": 0.7866666666666667,
+    "mean_steps": 200.0,
+    "win_rate": 0.95,
+    "params": {
+      "learning_rate": "0.005",
+      "buffer_size": "50000",
+      "batch_size": "64",
+      "gamma": "0.99",
+      "exploration_fraction": "0.3",
+      "exploration_final_eps": "0.05",
+      "target_update_interval": "500",
+      "learning_starts": "1000"
+    }
+  },
+  "dqn_large_buffer": {
+    "mean_reward": 218.95,
+    "std_reward": 237.45641178961662,
+    "mean_health": 0.764111111111111,
+    "mean_steps": 200.0,
+    "win_rate": 0.75,
+    "params": {
+      "learning_rate": "0.001",
+      "buffer_size": "100000",
+      "batch_size": "128",
+      "gamma": "0.99",
+      "exploration_fraction": "0.3",
+      "exploration_final_eps": "0.05",
+      "target_update_interval": "500",
+      "learning_starts": "2000"
+    }
+  },
+  "dqn_small_batch": {
+    "mean_reward": 54.7,
+    "std_reward": 115.35428037138458,
+    "mean_health": 0.7706666666666667,
+    "mean_steps": 192.9,
+    "win_rate": 0.9,
+    "params": {
+      "learning_rate": "0.001",
+      "buffer_size": "50000",
+      "batch_size": "32",
+      "gamma": "0.99",
+      "exploration_fraction": "0.3",
+      "exploration_final_eps": "0.05",
+      "target_update_interval": "250",
+      "learning_starts": "1000"
+    }
+  },
+  "dqn_high_explore": {
+    "mean_reward": 226.1,
+    "std_reward": 99.56550607514633,
+    "mean_health": 0.7725555555555557,
+    "mean_steps": 200.0,
+    "win_rate": 0.85,
+    "params": {
+      "learning_rate": "0.001",
+      "buffer_size": "50000",
+      "batch_size": "64",
+      "gamma": "0.99",
+      "exploration_fraction": "0.5",
+      "exploration_final_eps": "0.1",
+      "target_update_interval": "500",
+      "learning_starts": "1000"
+    }
+  },
+  "dqn_low_gamma": {
+    "mean_reward": 258.45,
+    "std_reward": 265.9025620410605,
+    "mean_health": 0.8058888888888889,
+    "mean_steps": 190.5,
+    "win_rate": 0.95,
+    "params": {
+      "learning_rate": "0.001",
+      "buffer_size": "50000",
+      "batch_size": "64",
+      "gamma": "0.95",
+      "exploration_fraction": "0.3",
+      "exploration_final_eps": "0.05",
+      "target_update_interval": "500",
+      "learning_starts": "1000"
+    }
+  },
+  "dqn_fast_target": {
+    "mean_reward": 119.3,
+    "std_reward": 104.97099599413164,
+    "mean_health": 0.7501111111111111,
+    "mean_steps": 200.0,
+    "win_rate": 0.8,
+    "params": {
+      "learning_rate": "0.001",
+      "buffer_size": "50000",
+      "batch_size": "64",
+      "gamma": "0.99",
+      "exploration_fraction": "0.3",
+      "exploration_final_eps": "0.05",
+      "target_update_interval": "200",
+      "learning_starts": "1000"
+    }
+  },
+  "dqn_slow_target": {
+    "mean_reward": 198.775,
+    "std_reward": 133.69335015250383,
+    "mean_health": 0.7443333333333334,
+    "mean_steps": 196.05,
+    "win_rate": 0.7,
+    "params": {
+      "learning_rate": "0.001",
+      "buffer_size": "50000",
+      "batch_size": "64",
+      "gamma": "0.99",
+      "exploration_fraction": "0.3",
+      "exploration_final_eps": "0.05",
+      "target_update_interval": "1000",
+      "learning_starts": "1000"
+    }
+  },
+  "dqn_aggressive": {
+    "mean_reward": 306.8,
+    "std_reward": 141.02255138806703,
+    "mean_health": 0.7994444444444444,
+    "mean_steps": 200.0,
+    "win_rate": 0.95,
+    "params": {
+      "learning_rate": "0.003",
+      "buffer_size": "30000",
+      "batch_size": "128",
+      "gamma": "0.98",
+      "exploration_fraction": "0.2",
+      "exploration_final_eps": "0.02",
+      "target_update_interval": "300",
+      "learning_starts": "500"
+    }
+  }
+}

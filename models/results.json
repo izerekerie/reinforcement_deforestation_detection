@@ -1,0 +1,26 @@
+{
+  "DQN": {
+    "mean_reward": 528.85,
+    "std_reward": 67.174604576432,
+    "mean_health": 0.6962222222222222,
+    "win_rate": 0.55
+  },
+  "PPO": {
+    "mean_reward": 97.25,
+    "std_reward": 250.0861601528561,
+    "mean_health": 0.47566666666666657,
+    "win_rate": 0.05
+  },
+  "A2C": {
+    "mean_reward": 318.4,
+    "std_reward": 276.3921851283064,
+    "mean_health": 0.5641111111111112,
+    "win_rate": 0.25
+  },
+  "REINFORCE": {
+    "mean_reward": -253.85,
+    "std_reward": 16.2919458629103,
+    "mean_health": 0.29311111111111116,
+    "win_rate": 0.0
+  }
+}

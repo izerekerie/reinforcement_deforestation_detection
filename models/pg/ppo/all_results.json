@@ -1,0 +1,172 @@
+{
+  "ppo_baseline": {
+    "mean_reward": -58.85,
+    "std_reward": 124.28768040316788,
+    "mean_health": 0.749111111111111,
+    "mean_steps": 200.0,
+    "win_rate": 0.85,
+    "params": {
+      "learning_rate": "0.0003",
+      "n_steps": "1024",
+      "batch_size": "64",
+      "n_epochs": "10",
+      "gamma": "0.99",
+      "gae_lambda": "0.95",
+      "clip_range": "0.2",
+      "ent_coef": "0.01"
+    }
+  },
+  "ppo_low_lr": {
+    "mean_reward": -49.75,
+    "std_reward": 105.10274734753607,
+    "mean_health": 0.7365555555555555,
+    "mean_steps": 200.0,
+    "win_rate": 0.65,
+    "params": {
+      "learning_rate": "0.0001",
+      "n_steps": "1024",
+      "batch_size": "64",
+      "n_epochs": "10",
+      "gamma": "0.99",
+      "gae_lambda": "0.95",
+      "clip_range": "0.2",
+      "ent_coef": "0.01"
+    }
+  },
+  "ppo_high_lr": {
+    "mean_reward": -5.475,
+    "std_reward": 113.94115531711971,
+    "mean_health": 0.8274444444444444,
+    "mean_steps": 169.95,
+    "win_rate": 0.9,
+    "params": {
+      "learning_rate": "0.001",
+      "n_steps": "1024",
+      "batch_size": "64",
+      "n_epochs": "10",
+      "gamma": "0.99",
+      "gae_lambda": "0.95",
+      "clip_range": "0.2",
+      "ent_coef": "0.01"
+    }
+  },
+  "ppo_wide_clip": {
+    "mean_reward": -88.125,
+    "std_reward": 106.06435251770503,
+    "mean_health": 0.8053333333333335,
+    "mean_steps": 160.75,
+    "win_rate": 0.9,
+    "params": {
+      "learning_rate": "0.0003",
+      "n_steps": "1024",
+      "batch_size": "64",
+      "n_epochs": "10",
+      "gamma": "0.99",
+      "gae_lambda": "0.95",
+      "clip_range": "0.3",
+      "ent_coef": "0.01"
+    }
+  },
+  "ppo_narrow_clip": {
+    "mean_reward": -86.275,
+    "std_reward": 131.7059674995784,
+    "mean_health": 0.7625555555555554,
+    "mean_steps": 185.75,
+    "win_rate": 0.75,
+    "params": {
+      "learning_rate": "0.0003",
+      "n_steps": "1024",
+      "batch_size": "64",
+      "n_epochs": "10",
+      "gamma": "0.99",
+      "gae_lambda": "0.95",
+      "clip_range": "0.1",
+      "ent_coef": "0.01"
+    }
+  },
+  "ppo_high_entropy": {
+    "mean_reward": -122.925,
+    "std_reward": 114.79854909797423,
+    "mean_health": 0.7273333333333334,
+    "mean_steps": 198.15,
+    "win_rate": 0.75,
+    "params": {
+      "learning_rate": "0.0003",
+      "n_steps": "1024",
+      "batch_size": "64",
+      "n_epochs": "10",
+      "gamma": "0.99",
+      "gae_lambda": "0.95",
+      "clip_range": "0.2",
+      "ent_coef": "0.05"
+    }
+  },
+  "ppo_long_horizon": {
+    "mean_reward": -51.9,
+    "std_reward": 61.7728904941318,
+    "mean_health": 0.7753333333333334,
+    "mean_steps": 200.0,
+    "win_rate": 0.9,
+    "params": {
+      "learning_rate": "0.0003",
+      "n_steps": "2048",
+      "batch_size": "128",
+      "n_epochs": "10",
+      "gamma": "0.995",
+      "gae_lambda": "0.98",
+      "clip_range": "0.2",
+      "ent_coef": "0.01"
+    }
+  },
+  "ppo_short_horizon": {
+    "mean_reward": -42.0,
+    "std_reward": 233.3011465895528,
+    "mean_health": 0.8097777777777777,
+    "mean_steps": 162.5,
+    "win_rate": 0.9,
+    "params": {
+      "learning_rate": "0.0003",
+      "n_steps": "256",
+      "batch_size": "32",
+      "n_epochs": "5",
+      "gamma": "0.97",
+      "gae_lambda": "0.9",
+      "clip_range": "0.2",
+      "ent_coef": "0.01"
+    }
+  },
+  "ppo_many_epochs": {
+    "mean_reward": -49.975,
+    "std_reward": 91.90422664382743,
+    "mean_health": 0.7805555555555556,
+    "mean_steps": 185.45,
+    "win_rate": 0.95,
+    "params": {
+      "learning_rate": "0.0001",
+      "n_steps": "1024",
+      "batch_size": "64",
+      "n_epochs": "20",
+      "gamma": "0.99",
+      "gae_lambda": "0.95",
+      "clip_range": "0.15",
+      "ent_coef": "0.01"
+    }
+  },
+  "ppo_tuned": {
+    "mean_reward": 31.025,
+    "std_reward": 88.57912776156695,
+    "mean_health": 0.7557777777777778,
+    "mean_steps": 199.75,
+    "win_rate": 0.85,
+    "params": {
+      "learning_rate": "0.0003",
+      "n_steps": "1024",
+      "batch_size": "128",
+      "n_epochs": "10",
+      "gamma": "0.99",
+      "gae_lambda": "0.95",
+      "clip_range": "0.2",
+      "ent_coef": "0.03"
+    }
+  }
+}
