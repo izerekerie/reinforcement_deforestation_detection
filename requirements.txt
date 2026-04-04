@@ -1,0 +1,11 @@
+gymnasium>=1.0.0
+stable-baselines3>=2.0.0
+torch>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+pandas>=2.0.0
+fastapi>=0.100.0
+uvicorn>=0.23.0
+pygame-ce>=2.0.0
+# Optional: Ursina 3D engine (only needed for --mode 3d, not required)
+# ursina>=7.0.0

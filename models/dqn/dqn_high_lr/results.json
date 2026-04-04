@@ -1,0 +1,17 @@
+{
+  "mean_reward": 137.05,
+  "std_reward": 283.1777666060667,
+  "mean_health": 0.7866666666666667,
+  "mean_steps": 200.0,
+  "win_rate": 0.95,
+  "params": {
+    "learning_rate": "0.005",
+    "buffer_size": "50000",
+    "batch_size": "64",
+    "gamma": "0.99",
+    "exploration_fraction": "0.3",
+    "exploration_final_eps": "0.05",
+    "target_update_interval": "500",
+    "learning_starts": "1000"
+  }
+}

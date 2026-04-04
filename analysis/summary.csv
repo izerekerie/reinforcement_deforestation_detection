@@ -1,0 +1,5 @@
+Algorithm,Config,Mean Reward,Std Reward,Mean Health,Win Rate,Avg Steps,Avg Detections
+DQN,dqn_aggressive,282.93,136.59,76.81%,73.33%,199,7.4
+PPO,ppo_tuned,3.63,107.61,73.67%,70.00%,200,0.0
+A2C,a2c_high_vf,162.13,192.55,79.55%,96.67%,179,0.7
+REINFORCE,reinforce_fast,73.57,96.31,76.71%,86.67%,200,0.0

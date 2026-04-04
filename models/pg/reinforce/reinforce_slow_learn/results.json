@@ -1,0 +1,12 @@
+{
+  "mean_reward": -190.0,
+  "std_reward": 80.0,
+  "mean_health": 0.7434444444444445,
+  "win_rate": 0.8,
+  "config": {
+    "name": "reinforce_slow_learn",
+    "lr": 0.0005,
+    "gamma": 0.995,
+    "hidden": 128
+  }
+}

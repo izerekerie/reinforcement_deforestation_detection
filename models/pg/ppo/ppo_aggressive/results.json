@@ -1,0 +1,17 @@
+{
+  "mean_reward": -681.05,
+  "std_reward": 978.0042165042029,
+  "mean_health": 0.813,
+  "win_rate": 0.95,
+  "config": {
+    "name": "ppo_aggressive",
+    "learning_rate": 0.0005,
+    "n_steps": 256,
+    "batch_size": 128,
+    "n_epochs": 15,
+    "gamma": 0.98,
+    "gae_lambda": 0.92,
+    "clip_range": 0.25,
+    "ent_coef": 0.02
+  }
+}
